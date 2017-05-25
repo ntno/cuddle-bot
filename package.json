@@ -1,0 +1,35 @@
+{
+  "name": "cuddle-bot",
+  "version": "1.0.0",
+  "description": "making the world a better place, one cuddle at a time",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-resource": "^1.6.4",
+    "angular-route": "^1.6.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.4",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "scripts": {
+    "start": "python -m SimpleHTTPServer",
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntno/cuddle-bot.git"
+  },
+  "keywords": [
+  ],
+  "author": "ntno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntno/cuddle-bot/issues"
+  },
+  "homepage": "https://github.com/ntno/cuddle-bot#readme"
+}
